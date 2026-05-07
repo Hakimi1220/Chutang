@@ -1,0 +1,15 @@
+node_modules/
+dist/
+data/*.db
+data/*.db-shm
+data/*.db-wal
+data/logs/
+.env
+*.log
+.DS_Store
+
+# OpenClaw skills
+openclaw-skills/*/data/*.db
+openclaw-skills/*/data/*.db-shm
+openclaw-skills/*/data/*.db-wal
+openclaw-skills/*/node_modules/

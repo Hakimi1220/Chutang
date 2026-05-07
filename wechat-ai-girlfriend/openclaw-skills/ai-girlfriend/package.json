@@ -1,0 +1,25 @@
+{
+  "name": "ai-girlfriend-openclaw-skill",
+  "version": "1.0.0",
+  "description": "AI Girlfriend chat skill for OpenClaw integration",
+  "type": "module",
+  "main": "scripts/simple-chat.js",
+  "scripts": {
+    "chat": "node scripts/simple-chat.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "openclaw",
+    "skill",
+    "ai",
+    "chatbot",
+    "girlfriend"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "better-sqlite3": "^12.9.0",
+    "openai": "^6.34.0",
+    "yaml": "^2.8.3"
+  }
+}
